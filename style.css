@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 20px;
+}
+.message{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+}
+.reply{
+    width: 100%;
+    height: 150px;
+    display: flex;
+
+    justify-content: flex-start;
+
+
+}
+#reply{
+    display: none;
+}
+.setup{
+    background-color:darkgray;
+    display: flex;
+    padding:20px;
+   
+    border-radius:20px;
+    justify-content:flex-end;
+    align-items: center;
+    width: auto;
+    height: 80px;
+}
+.avatar{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 10%;
+}
+.avatar img{
+    width: 100%;
+}
+#joke{
+    display: none;
+}
+
+button{
+    width:15%
+}
