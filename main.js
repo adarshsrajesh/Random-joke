@@ -6,7 +6,7 @@ if(localStorage.getItem("setup")&&localStorage.getItem("punchline")){
   pline.innerHTML =`<h4> ${localStorage.getItem("punchline")} </h4>`
 
 }else{
-  alert("click the button for a jokeS")
+  alert("click the button for a new joke")
 }
 
 
